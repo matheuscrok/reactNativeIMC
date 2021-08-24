@@ -19,7 +19,7 @@ export default function App() {
       alert(valor+' Abaixo do peso')
     }
     else if ((valor >=18.5 && valor < 24.9)){
-      alert('Taxa de imc: '+valor+' Peso normal')
+      alert('Taxa de imc: '+valor.toFixed(1)+' Peso normal')
     }
     else if((valor >=25 && valor <= 29.9)){
       alert('Taxa de imc: '+valor.toFixed(1)+' Sobrepeso')
